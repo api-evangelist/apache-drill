@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache Drill is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://drill.apache.org/
+Apache Drill is an open-source, distributed SQL query engine that enables users to perform low‑latency analytics on a variety of data sources, including Hadoop file systems, object storage, NoSQL databases, and cloud services. It provides schema‑free, ANSI‑SQL‑compatible querying without requiring data loading or schema definition, supporting formats such as JSON, Parquet, and CSV. The project is governed by the Apache Software Foundation and offers drivers for ODBC/JDBC, as well as REST interfaces for integration.
+
+**Areas:** SQL Engine · Distributed Query · Data Analytics · Hadoop · NoSQL · Cloud Storage · In‑situ Analytics
+
+## Apache Drill on APIs.io
+
+Everything profiled for Apache Drill is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-drill/](https://apis.io/providers/apache-drill/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Apache Drill REST API](https://apis.io/apis/apache-drill/apache-drill-rest-api/) — The Apache Drill REST API provides endpoints for query submission and status, documented at the API reference page.
+- [Apache Drill API](https://apis.io/apis/apache-drill/apache-drill-api/) — Apache Drill API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetProfilesCancelQueryidResponse](https://apis.io/schemas/apache-drill/apache-drill-get-profiles-cancel-queryid-response/)
+- [GetProfilesJsonResponse](https://apis.io/schemas/apache-drill/apache-drill-get-profiles-json-response/)
+- [GetProfilesResponse](https://apis.io/schemas/apache-drill/apache-drill-get-profiles-response/)
+- [PostStorageMypluginJsonRequest](https://apis.io/schemas/apache-drill/apache-drill-post-storage-myplugin-json-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Apache Drill Context](https://apis.io/jsonld/apache-drill/apache-drill-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Apache Drill API Rules](https://apis.io/rules/apache-drill/apache-drill-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Apache Drill Domain Security](https://apis.io/security/apache-drill/apache-drill-domain-security/)
+- [Apache Drill Vulnerability Disclosure](https://apis.io/security/apache-drill/apache-drill-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://drill.apache.org/)
+- [Documentation](https://drill.apache.org/docs/)
+- [Getting started](https://drill.apache.org/docs/getting-started)
+- [API reference](https://drill.apache.org/apidocs)
+- [Changelog](https://drill.apache.org/docs/release-notes/)
+- [Blog](https://drill.apache.org/blog/)
+- [Security](https://www.apache.org/security)
+- [Privacy policy](https://privacy.apache.org/policies/privacy-policy-public.html)
+- [GitHub](https://github.com/apache/drill)
+- [Status](https://status.apache.org/)
+
+## API Evangelist rating
+
+**Kin Score 41.1** — developing · rubric 0.27.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 43.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 15.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-drill/](https://apis.io/providers/apache-drill/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Drill: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-drill/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
